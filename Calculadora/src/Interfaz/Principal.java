@@ -16,10 +16,16 @@ public class Principal {
 		valor2 = entrada.nextInt();
 		System.out.println("Ingrese un numero dependiendo de la operacion");
 		System.out.println("suma: 1,");
+		System.out.println("resta: 2,");
 		op = entrada.nextInt();
 		
 		if(op == 1){
 			int resultado= valor1 + valor2;
+			System.out.println("Resultador: "+resultado);
+		}
+		if (op== 2){
+			
+			int resultado= valor1 - valor2;
 			System.out.println("Resultador: "+resultado);
 		}
 		 
