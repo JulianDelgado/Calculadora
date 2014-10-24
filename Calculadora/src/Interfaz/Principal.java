@@ -17,6 +17,7 @@ public class Principal {
 		System.out.println("Ingrese un numero dependiendo de la operacion");
 		System.out.println("suma: 1,");
 		System.out.println("resta: 2,");
+		System.out.println("Multiplicacion: 3");
 		op = entrada.nextInt();
 		
 		if(op == 1){
