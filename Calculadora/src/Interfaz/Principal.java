@@ -28,6 +28,11 @@ public class Principal {
 			int resultado= valor1 - valor2;
 			System.out.println("Resultador: "+resultado);
 		}
+		if(op==3){
+			
+			int resultado=valor1 * valor2;
+			System.out.println("Resultado: "+resultado);
+		}
 		 
 	}
 
